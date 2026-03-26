@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lab Carteles - UCR</title>
+  <link rel="stylesheet" href="global.css" />
+</head>
+<body>
+
+  <main class="carteles-grid">
+
+    <!-- CARTEL 1: Amarillo - La Sede Te Acompaña -->
+    <article class="cartel cartel-amarillo">
+      <div class="cartel-inner">
+
+        <!-- Header con título -->
+        <header class="ca-header">
+          <div class="ca-titulo-wrap">
+            <span class="ca-excl ca-excl--left">¡</span>
+            <div class="ca-titulo">
+              <span class="ca-linea1">LA SEDE</span>
+              <span class="ca-linea2">TE ACOMPAÑA</span>
+            </div>
+            <span class="ca-excl ca-excl--right">!</span>
+          </div>
+        </header>
+
+        <!-- Cuerpo: texto + QR -->
+        <section class="ca-body">
+          <p class="ca-slogan">El respeto no se negocia</p>
+          <p class="ca-subslogan">¡Pará ya de acosar!</p>
+          <div class="ca-qr-wrap">
+            <p class="ca-qr-text">Si necesitás ayuda, escaneá este QR</p>
+            <!-- QR placeholder SVG -->
+            <svg class="ca-qr" viewBox="0 0 80 80" xmlns="http://www.w3.org/2000/svg">
+              <rect width="80" height="80" fill="white"/>
+              <!-- QR pattern simulado -->
+              <rect x="5" y="5" width="30" height="30" fill="none" stroke="#000" stroke-width="3"/>
+              <rect x="10" y="10" width="20" height="20" fill="#000"/>
+              <rect x="45" y="5" width="30" height="30" fill="none" stroke="#000" stroke-width="3"/>
+              <rect x="50" y="10" width="20" height="20" fill="#000"/>
+              <rect x="5" y="45" width="30" height="30" fill="none" stroke="#000" stroke-width="3"/>
+              <rect x="10" y="50" width="20" height="20" fill="#000"/>
+              <rect x="45" y="45" width="8" height="8" fill="#000"/>
+              <rect x="57" y="45" width="8" height="8" fill="#000"/>
+              <rect x="45" y="57" width="8" height="8" fill="#000"/>
+              <rect x="57" y="57" width="8" height="8" fill="#000"/>
+              <rect x="38" y="38" width="4" height="4" fill="#000"/>
+            </svg>
+          </div>
+        </section>
+
+        <!-- Imagen personas (GokuYVegetaUCR.png) -->
+        <div class="ca-imagen-wrap">
+          <img
+            src="GokuYVegetaUCR.png"
+            alt="Estudiantes UCR haciendo señal de pare"
+            class="ca-imagen"
+          />
+        </div>
+
+        <!-- Footer logos -->
+        <footer class="ca-footer">
+          <div class="ca-logos">
+            <span class="ca-logo-ucr">UCR</span>
+            <div class="ca-divider"></div>
+            <div class="ca-logo-acoso">
+              <span class="ca-logo-ucr-small">UCR</span>
+              <span class="ca-logo-acoso-text">LIBRE DE<br/>ACOSO<br/>SEXUAL</span>
+            </div>
+            <div class="ca-divider"></div>
+            <div class="ca-logo-sede">
+              <span class="ca-logo-sg">SG</span>
+              <span class="ca-logo-sede-text">Sede de<br/>Guanacaste</span>
+            </div>
+          </div>
+        </footer>
+
+      </div>
+    </article>
+
+    <!-- CARTEL 2: Azul - Señalización UCR -->
+    <article class="cartel cartel-azul">
+      <div class="cartel-inner cb-inner">
+
+        <!-- Filas de destinos -->
+        <ul class="cb-lista">
+          <li class="cb-item">
+            <span class="cb-texto">Aulas 5, 6, 7</span>
+            <span class="cb-flecha">→</span>
+          </li>
+          <li class="cb-item">
+            <span class="cb-texto">Apoyo Informático</span>
+            <span class="cb-flecha">→</span>
+          </li>
+          <li class="cb-item">
+            <span class="cb-texto">Servidores</span>
+            <span class="cb-flecha">→</span>
+          </li>
+          <li class="cb-item">
+            <span class="cb-texto">Laboratorio 1 y 2</span>
+            <span class="cb-flecha">→</span>
+          </li>
+          <li class="cb-item">
+            <span class="cb-texto">Coordinación<br/>Informática Empresarial</span>
+            <span class="cb-flecha">→</span>
+          </li>
+        </ul>
+
+        <!-- Footer UCR -->
+        <footer class="cb-footer">
+          <span class="cb-ucr">UCR</span>
+        </footer>
+
+      </div>
+    </article>
+
+  </main>
+
+</body>
+</html>
